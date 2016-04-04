@@ -1,0 +1,260 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/header" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/footer"
+            android:layout_below="@+id/header"
+            android:background="@drawable/my_border"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/my_border"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/tv_settingheading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="Emergency Alert Setting: " />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="15dp">
+
+                    <TextView
+                        style="@style/tv_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="AlertMe on Mail : " />
+
+                    <ToggleButton
+                        android:background="@drawable/toggle_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/t_btn_EmMailNotify"
+                        android:layout_alignParentRight="true" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="15dp"
+                    android:layout_gravity="left">
+
+                    <TextView
+                        style="@style/tv_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="AlertMe on SMS : " />
+
+                    <ToggleButton
+                        android:background="@drawable/toggle_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/t_btn_EmSMSNotify"
+                        android:layout_gravity="right" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="15dp"
+                    android:layout_gravity="left">
+
+                    <TextView
+                        style="@style/tv_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="AlertMe on Call :  " />
+
+                    <ToggleButton
+                        android:background="@drawable/toggle_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/t_btn_EmCallNotify"
+                        android:layout_gravity="center_horizontal" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/my_border"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/tv_settingheading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="General Alert Setting: " />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="15dp"
+                    android:layout_gravity="left">
+
+                    <TextView
+                        style="@style/tv_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Trip Start Alert on Mail : " />
+
+                    <ToggleButton
+                        android:background="@drawable/toggle_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/t_btn_GnMailNotify"
+                        android:gravity="left"
+                        android:layout_gravity="center_horizontal" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="15dp"
+                    android:layout_gravity="left">
+
+                    <TextView
+                        style="@style/tv_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Trip Start Alert on SMS : " />
+
+                    <ToggleButton
+                        android:background="@drawable/toggle_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/t_btn_GnSMSNotify"
+                        android:layout_gravity="center_horizontal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="15dp"
+                    android:layout_gravity="left">
+
+                    <TextView
+                        style="@style/tv_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Save Trip History :            " />
+
+                    <ToggleButton
+                        android:background="@drawable/toggle_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/t_btn_GnSaveTrip"
+                        android:layout_gravity="center_horizontal" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="15dp"
+                    android:layout_gravity="left">
+
+                    <TextView
+                        style="@style/tv_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Update Interval :       " />
+
+                    <Spinner
+                        android:background="@drawable/toggle_button"
+                        android:id="@+id/lv_UpdateInterval"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/my_border"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/tv_settingheading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="Alarm Setting: " />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="15dp"
+                    android:layout_gravity="left">
+
+                    <TextView
+                        style="@style/tv_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Number of Snooze : " />
+
+                    <Spinner
+                        android:background="@drawable/toggle_button"
+                        android:id="@+id/lv_NoSnooze"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="15dp"
+                    android:layout_gravity="left">
+
+                    <TextView
+                        style="@style/tv_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Snooze Interval :       " />
+
+                    <Spinner
+                        android:background="@drawable/toggle_button"
+                        android:id="@+id/lv_IntervalSnooze"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <include
+        android:id="@+id/footer"
+        layout="@layout/footer" />
+
+</RelativeLayout>

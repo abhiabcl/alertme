@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/my_border_list" >
+
+    <TextView
+        android:id="@+id/FirstText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="First" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/SecondText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:text="Second" >
+    </TextView>
+
+    <!--
+    <Button
+        android:id="@+id/FourthText_btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="ViewBill"
+        android:layout_weight="1">
+    </Button>
+    -->
+
+    <TextView
+        android:id="@+id/ThirdText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Third" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/FourthText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Fourth" >
+    </TextView>
+>
+
+    <TextView
+        android:id="@+id/FifthText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Fifth" >
+    </TextView>
+
+</LinearLayout>

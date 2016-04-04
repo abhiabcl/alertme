@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/header" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/footer"
+        android:layout_below="@+id/header"
+        android:background="@drawable/my_border"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:orientation="vertical" >
+
+                <TextView style="@style/tv_settingheading"
+                    android:id="@+id/TextViewTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FeedBack"  >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/EditTextName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/feedbackname"
+                    android:inputType="textPersonName" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/EditTextEmail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/feedbackemail"
+                    android:inputType="textEmailAddress" >
+                </EditText>
+
+              <!--  <Spinner
+                    android:id="@+id/SpinnerFeedbackType"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/feedbacktypelist"
+                    android:prompt="@string/feedbacktype" >
+                </Spinner>-->
+
+                <EditText
+                    android:id="@+id/EditTextFeedbackBody"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/feedbackbody"
+                    android:inputType="textMultiLine"
+                    android:lines="5" >
+                </EditText>
+
+                <CheckBox
+                    android:id="@+id/CheckBoxResponse"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/feedbackresponse" >
+                </CheckBox>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingRight="20dp" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <Button
+                            android:id="@+id/ButtonCallFeedback"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/toggle_button"
+                            style="@style/button_text"
+                            android:gravity="center"
+                            android:text="@string/feedbackbutton" >
+                        </Button>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <include
+        android:id="@+id/footer"
+        layout="@layout/footer" />
+
+</RelativeLayout>

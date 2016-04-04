@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="pane_text_size">11dp</dimen>
+		<dimen name="savings_pane_amount_size">24dp</dimen>
+		
+		
+		<dimen name="dashboard_button_vertical_spacing">0dp</dimen>
+
+	<dimen name="dashboard_heading_height">65dp</dimen>
+	<dimen name="dashboard_button_text_size">10dp</dimen>
+</resources>
