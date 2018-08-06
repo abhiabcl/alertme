@@ -1,0 +1,95 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+com.avsw.chatonbluetooth.BluetoothChat
+com.avsw.chatonbluetooth.BluetoothChat: BluetoothChat()
+com.avsw.chatonbluetooth.DeviceListActivity
+com.avsw.chatonbluetooth.DeviceListActivity: DeviceListActivity()
+com.avsw.chatonbluetooth.R$drawable: int app_icon
+com.avsw.chatonbluetooth.R$drawable: int nfocused
+com.avsw.chatonbluetooth.R$drawable: int nlistselector
+com.avsw.chatonbluetooth.R$drawable: int nselected
+com.avsw.chatonbluetooth.R$drawable: int pfocused
+com.avsw.chatonbluetooth.R$drawable: int plistselector
+com.avsw.chatonbluetooth.R$drawable: int pselected
+com.avsw.chatonbluetooth.R$drawable: int splash
+com.avsw.chatonbluetooth.R$id: int ImageView02
+com.avsw.chatonbluetooth.R$id: int button_scan
+com.avsw.chatonbluetooth.R$id: int button_send
+com.avsw.chatonbluetooth.R$id: int discoverable
+com.avsw.chatonbluetooth.R$id: int edit_text_out
+com.avsw.chatonbluetooth.R$id: int in
+com.avsw.chatonbluetooth.R$id: int insecure_connect_scan
+com.avsw.chatonbluetooth.R$id: int new_devices
+com.avsw.chatonbluetooth.R$id: int paired_devices
+com.avsw.chatonbluetooth.R$id: int secure_connect_scan
+com.avsw.chatonbluetooth.R$id: int title_left_text
+com.avsw.chatonbluetooth.R$id: int title_new_devices
+com.avsw.chatonbluetooth.R$id: int title_paired_devices
+com.avsw.chatonbluetooth.R$id: int title_right_text
+com.avsw.chatonbluetooth.R$layout: int custom_title
+com.avsw.chatonbluetooth.R$layout: int device_list
+com.avsw.chatonbluetooth.R$layout: int device_name
+com.avsw.chatonbluetooth.R$layout: int main
+com.avsw.chatonbluetooth.R$layout: int message
+com.avsw.chatonbluetooth.R$layout: int splash
+com.avsw.chatonbluetooth.R$menu: int option_menu
+com.avsw.chatonbluetooth.R$string: int app_name
+com.avsw.chatonbluetooth.R$string: int bt_not_enabled_leaving
+com.avsw.chatonbluetooth.R$string: int button_scan
+com.avsw.chatonbluetooth.R$string: int discoverable
+com.avsw.chatonbluetooth.R$string: int insecure_connect
+com.avsw.chatonbluetooth.R$string: int none_found
+com.avsw.chatonbluetooth.R$string: int none_paired
+com.avsw.chatonbluetooth.R$string: int not_connected
+com.avsw.chatonbluetooth.R$string: int scanning
+com.avsw.chatonbluetooth.R$string: int secure_connect
+com.avsw.chatonbluetooth.R$string: int select_device
+com.avsw.chatonbluetooth.R$string: int send
+com.avsw.chatonbluetooth.R$string: int title_connected_to
+com.avsw.chatonbluetooth.R$string: int title_connecting
+com.avsw.chatonbluetooth.R$string: int title_not_connected
+com.avsw.chatonbluetooth.R$string: int title_other_devices
+com.avsw.chatonbluetooth.R$string: int title_paired_devices
+com.avsw.chatonbluetooth.SplashActivity
+com.avsw.chatonbluetooth.SplashActivity: SplashActivity()

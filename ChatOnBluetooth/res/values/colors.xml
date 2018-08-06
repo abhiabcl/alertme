@@ -1,0 +1,7 @@
+<resources>
+    <drawable name="nfocused">#FF0000</drawable>
+    <drawable name="nselected">#FF00FF</drawable>
+    
+    <drawable name="pfocused">#008000</drawable>
+    <drawable name="pselected">#FF00FF</drawable>
+</resources>
